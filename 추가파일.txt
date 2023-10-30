@@ -1,0 +1,5 @@
+추가 파일
+
+https://github.com/italojs/facial-landmarks-recognition/blob/master/shape_predictor_68_face_landmarks.dat
+
+이동해서 다운

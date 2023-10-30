@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>OpenCV Flask Example</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/test.css') }}">
+</head>
+<body>
+    <div class="title_about">
+        <h1>OpenCV Flask Example</h1>
+    </div>
+    <div class="video_about"> 
+        <img id="video_feed" src="{{ url_for('video_feed') }}">
+        <p>Detected Time: {{ detected_time }}</p>
+    </div>
+    <form action="/signup">
+        <button type="submit" class="sign" >다음으로 가기</button>
+    </form>
+    
+
+</body>
+</html>

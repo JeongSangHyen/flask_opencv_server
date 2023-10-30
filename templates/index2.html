@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>졸음 이미지 기록</title>
+</head>
+<body>
+    <div>
+        <h1 style="text-size-adjust: 30dp;">당신이 졸은 이미지 기록</h1>
+    </div>
+    <div class='image_View'>
+        <img id="image_View" src="{{url_for('static', filename='drowst_image.jpg') }}" alt="drowst_image.jpg">
+        
+        <p>Detected Time: {{ detected_time }}</p>
+       
+    </div>
+    
+</body>
+</html>
